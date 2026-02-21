@@ -21,8 +21,10 @@ for (let i = 0; i < people.length; i++) {
     // Write the logic below
     if (person === "Phil" || person === "Lola") {
         // Add to refused list
+        refused.textContent += person + ", ";
     } else {
         // Add to admitted list
+        admitted.textContent += person + ", ";
     }
 }
 
