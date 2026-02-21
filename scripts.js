@@ -8,4 +8,10 @@ const people = [
     "Sam",
     "Kay",
     "Bruce",
-]
+];
+
+const admitted = document.querySelector(".admitted");
+const refused = document.querySelector(".refused");
+
+
+
